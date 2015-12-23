@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.library   = "z.1"
   s.frameworks = "CFNetwork","SystemConfiguration","MobileCoreServices","CoreGraphics"
   s.requires_arc = false
+  s.dependency 'Reachability', '~> 3.2'
 
 end
