@@ -5067,6 +5067,7 @@ static NSOperationQueue *sharedQueue = nil;
 @synthesize allowResumeForFileDownloads;
 @synthesize userInfo;
 @synthesize tag;
+@synthesize requestType;
 @synthesize postBodyFilePath;
 @synthesize compressedPostBodyFilePath;
 @synthesize postBodyWriteStream;
